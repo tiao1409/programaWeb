@@ -7,3 +7,15 @@
             color: red;
             text-decoration: underline; 
         }
+      body{
+          text-align: center;
+      }
+      .hello-world{
+          width: 200px;
+          margin: auto;
+          text-align: left;
+      }
+      input{
+          margin-top: 10px;
+          margin-bottom:10px;
+      }

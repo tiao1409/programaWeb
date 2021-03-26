@@ -9,5 +9,23 @@
 <body>
    <h1> Hello world</h1> 
    <p> Bem Vindo a Programção Web</p>
+
+   <p class="hello-world">
+        Digite seu nome:<br>
+        <input type="text"/><br>
+        <button onclick="helloWorld()">OK</button>
+
+   </p>
+
+   <script> 
+   function helloWorld() {
+     var inputs =  document.getElementsByTagName('input');
+     var input = inputs[0];
+     var nome = input.value;
+     console.log('Nome:', nome);
+     window.alert('Hello World,' + nome + '!');
+     input.value = '';
+   }
+</script>
 </body>
 </html>
